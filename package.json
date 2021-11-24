@@ -1,0 +1,24 @@
+{
+  "name": "dgg_bot",
+  "version": "1.0.0",
+  "description": "DGG BOT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: nah I'm good\" && exit 1",
+    "build": "eslint . --ext .ts && tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "snoostorm": "^1.5.2",
+    "snoowrap": "^1.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "typescript": "^4.5.2"
+  }
+}
